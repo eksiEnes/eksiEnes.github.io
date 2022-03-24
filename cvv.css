@@ -1,22 +1,49 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  min-height: 25vh;
+  background-color: aquamarine;
+
+}
 
 div{
     text-align: center;
     color: black;
     font-family:ariel;
-    font-size: 200%;
+   
 }
 
+.konteynır{
+  display: flex;
+  min-height: 75vh;
+  background-color: brown;
+  align-items: center;
+  justify-content: center;
+}
 
-h1 {
-    text-align: center;
-    color: blue;
-    font-family: verdana;
-    font-size: 300%;
-  }
-  
-  p {
-    text-align: center;
-    color: black;
-    font-family:ariel;
-    font-size: 200%;
-  }
+.bacak{
+  display: flex;
+  min-width: 30vw;
+  height: 30vw;
+  background-color: yellowgreen;
+  margin: 10px;
+}
+
+.sagbacak{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.sagbacak div{
+  background-color: orange;
+  width: 40vh;
+  height: 40vw;
+  margin: 10px;
+}
